@@ -36,12 +36,12 @@ conda env create -f requirements.yml
 
 ## pretrain model
 - AVA dataset and CADB dataset model
-  - Download the aesthetic pretrain model and put it in ./dataset/aesthetic_model.(download_link) 
-  - Download the composition pretrain model and put it in ./dataset/composition_model. (download_link)
+  - Download the aesthetic pretrain model and put it in ./dataset/aesthetic_model.([download_link]()) 
+  - Download the composition pretrain model and put it in ./dataset/composition_model. ([download_link]())
   The directory structure should be like:
 ```
 |--checkpoints
-   |--faster_rcnn_r50_caffe_c4_mstrain_1x_coco_20220316_150527-db276fed.pth (download_link)
+   |--faster_rcnn_r50_caffe_c4_mstrain_1x_coco_20220316_150527-db276fed.pth ([download_link]())
 |--dataset
    |--aesthetic_model
       |--aesthetic-resnet50-model-epoch-10.pkl
