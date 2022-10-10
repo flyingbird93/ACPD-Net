@@ -2,10 +2,10 @@
 
 This repository contains a pytorch implementation of the paper "Aesthetic and Composition Collaboration Driven Image Cropping"(Subject to ICASSP2023)
 
-In this paper, we present an *A*esthetic *C*omposition *C*ollaboration *C*ropping *Net*work~(A3C-Net) to explicitly investigate the collaboration of ``image aesthetics'' and ``image composition'' for the cropping task in an end-to-end manner.
+In this paper, we present an **A**esthetic **C**omposition **C**ollaboration **C**ropping **Net**work~(A3C-Net) to explicitly investigate the collaboration of ``image aesthetics'' and ``image composition'' for the cropping task in an end-to-end manner.
 
 ## Pipeline
-![pipeline](https://img-blog.csdnimg.cn/0005050d73b4459284644d4d7c232379.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAaGVsbG93b3JsZF9GbHk=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+![pipeline](https://user-images.githubusercontent.com/16755407/194859123-75929459-027d-4284-a261-daf91140f40d.png)
 
 
 ## Requirements
