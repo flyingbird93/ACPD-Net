@@ -65,9 +65,9 @@ python test_cropping.py
 ## Citation
 ```
 @inproceedings{shi2023aesthetic,
-  title={Multiple image joint learning for image aesthetic assessment},
+  title={Aesthetic and Composition Collaboration Driven Image Cropping},
   author={Tengfei Shi, Chenglizhao Chen, Yuanbo He, Wenfeng Song, Aiming Hao},
-  booktitle={ICASSP},
+  conference={ICASSP},
   year={2023}
 }
 ```
