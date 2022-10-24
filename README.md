@@ -51,7 +51,7 @@ conda env create -f requirements.yml
 ```
 
 ## Training and test
-Traning scripts for two datasets can be found in ##train_cropping.py##. The dataroot argument should be modified to path_to_<dataset_name>. Run the follwing command for training:
+Traning scripts for two datasets can be found in ```train_cropping.py```. The dataroot argument should be modified to path_to_<dataset_name>. Run the follwing command for training:
 ```python
 # Training on FCDB and FLMS
 python train_cropping.py
