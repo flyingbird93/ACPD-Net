@@ -1,8 +1,8 @@
-# Aesthetic and Composition Collaboration Driven Image Cropping（A3C-Net）
+# Region candidate generate by Joint Distribution Driven Image Cropping（ACD-Net）
 
-This repository contains a pytorch implementation of the paper "Aesthetic and Composition Collaboration Driven Image Cropping"(Subject to ICASSP2023)
+This repository contains a pytorch implementation of the paper "Region candidate generate by Joint Distribution Driven Image Cropping"(Subject to ICIP2023)
 
-In this paper, we present an **A**esthetic **C**omposition **C**ollaboration **C**ropping **Net**work~(A3C-Net) to explicitly investigate the collaboration of image aesthetics and image composition for the cropping task in an end-to-end manner.
+In this paper, we present an **A**esthetic and **C**omposition Joing **D**istribution **Net**work~(ACD-Net) to explicitly investigate the collaboration of image aesthetics and image composition for the cropping task in an end-to-end manner.
 
 ## Pipeline
 ![pipeline](https://user-images.githubusercontent.com/16755407/194859123-75929459-027d-4284-a261-daf91140f40d.png)
@@ -19,15 +19,15 @@ In this paper, we present an **A**esthetic **C**omposition **C**ollaboration **C
 ## Install
 - Clone repo
 ```python
-git clone https://github.com/dafeigediaozhatian/A3C-Net
-cd A3C-Net
+git clone https://github.com/dafeigediaozhatian/ACD-Net
+cd ACD-Net
 ```
 
 - Install dependencies(pytorch, scikit-learn, opencv-python, pandas. Recommend to use Anaconda.)
 ```python
 # Create a new conda environment
-conda create -n A3C-Net python==3.8
-conda activate A3C-Net
+conda create -n ACD-Net python==3.8
+conda activate ACD-Net
 
 # Install other packages
 conda env create -f requirements.yml
@@ -65,9 +65,9 @@ python test_cropping.py
 ## Citation
 ```
 @inproceedings{shi2023aesthetic,
-  title={Aesthetic and Composition Collaboration Driven Image Cropping},
+  title={Region candidate generate by Joint Distribution Driven Image Cropping},
   author={Tengfei Shi, Chenglizhao Chen, Yuanbo He, Wenfeng Song, Aiming Hao},
-  conference={ICASSP},
+  conference={ICIP2023},
   year={2023}
 }
 ```
