@@ -1,8 +1,8 @@
-# Region candidate generate by Joint Distribution Driven Image Cropping（ACD-Net）
+# Joint Probability Distribution Regression for Image Cropping（ACPD-Net）
 
-This repository contains a pytorch implementation of the paper "Region candidate generate by Joint Distribution Driven Image Cropping"(Subject to ICIP2023)
+This repository contains a pytorch implementation of the paper "Joint Probability Distribution Regression for Image Cropping"(Subject to ICIP2023)
 
-In this paper, we present an **A**esthetic and **C**omposition Joing **D**istribution **Net**work~(ACD-Net) to explicitly investigate the collaboration of image aesthetics and image composition for the cropping task in an end-to-end manner.
+In this paper, we present an **A**esthetic and **C**omposition Joing **P**robability **D**istribution **Net**work~(ACPD-Net) to explicitly investigate the collaboration of image aesthetics and image composition for the cropping task in an end-to-end manner.
 
 ## Pipeline
 ![pipeline](https://user-images.githubusercontent.com/16755407/194859123-75929459-027d-4284-a261-daf91140f40d.png)
@@ -19,15 +19,15 @@ In this paper, we present an **A**esthetic and **C**omposition Joing **D**istrib
 ## Install
 - Clone repo
 ```python
-git clone https://github.com/dafeigediaozhatian/ACD-Net
-cd ACD-Net
+git clone https://github.com/dafeigediaozhatian/ACPD-Net
+cd ACPD-Net
 ```
 
 - Install dependencies(pytorch, scikit-learn, opencv-python, pandas. Recommend to use Anaconda.)
 ```python
 # Create a new conda environment
-conda create -n ACD-Net python==3.8
-conda activate ACD-Net
+conda create -n ACPD-Net python==3.8
+conda activate ACPD-Net
 
 # Install other packages
 conda env create -f requirements.yml
@@ -65,7 +65,7 @@ python test_cropping.py
 ## Citation
 ```
 @inproceedings{shi2023aesthetic,
-  title={Region candidate generate by Joint Distribution Driven Image Cropping},
+  title={Joint Probability Distribution Regression for Image Cropping},
   author={Tengfei Shi, Chenglizhao Chen, Yuanbo He, Wenfeng Song, Aiming Hao},
   conference={ICIP2023},
   year={2023}
