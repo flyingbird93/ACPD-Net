@@ -5,7 +5,7 @@ This repository contains a pytorch implementation of the paper "Joint Probabilit
 In this paper, we present an **A**esthetic and **C**omposition Joing **P**robability **D**istribution **Net**work~(ACPD-Net) to explicitly investigate the collaboration of image aesthetics and image composition for the cropping task in an end-to-end manner.
 
 ## Pipeline
-![pipeline](https://user-images.githubusercontent.com/16755407/194859123-75929459-027d-4284-a261-daf91140f40d.png)
+![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/6776cd77-1f34-4a25-9299-84327424c543)
 
 
 ## Requirements
