@@ -64,7 +64,7 @@ python test_cropping.py
 ![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/7db91a94-53eb-4549-91b9-085a4f31175a)
 
 ## The model size and inference speed of SOTA methods
-![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/7db91a94-53eb-4549-91b9-085a4f31175a)
+![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/de1dae79-e016-4979-b1b4-8c32390e3172)
 
 ## Citation
 ```
