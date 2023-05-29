@@ -60,7 +60,7 @@ python train_cropping.py
 python test_cropping.py
 ```
 
-## The Ablation study on the aesthetics threshold for probability θ
+## The Ablation study on the aesthetics threshold θ
 ![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/7db91a94-53eb-4549-91b9-085a4f31175a)
 
 ## The model size and inference speed of SOTA methods
