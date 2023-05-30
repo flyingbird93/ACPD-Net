@@ -4,6 +4,10 @@ This repository contains a pytorch implementation of the paper "Joint Probabilit
 
 In this paper, we present an **A**esthetic and **C**omposition Joing **P**robability **D**istribution **Net**work~(ACPD-Net) to explicitly investigate the collaboration of image aesthetics and image composition for the cropping task in an end-to-end manner.
 
+## Motivation
+![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/0d963026-7626-4998-89e7-ad5832fbbbaa)
+
+
 ## Pipeline
 ![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/6776cd77-1f34-4a25-9299-84327424c543)
 
@@ -60,11 +64,28 @@ python train_cropping.py
 python test_cropping.py
 ```
 
+
 ## The Ablation study on the aesthetics threshold θ
-![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/7db91a94-53eb-4549-91b9-085a4f31175a)
+The ablation study on the parameter θ in Eq. 2, and we select θ=0.05 as the optical choice, where the average intersection-over-union (IoU) and the average boundary
+displacement error (BDE) as metrics.
+
+![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/ddc13a0b-070c-4cb4-8044-69c4497a6166)
+
+
+
 
 ## The model size and inference speed of SOTA methods
+The model parameters of our method are not the least, and its inference speed is not the fastest, but our model can meet real-time requirements (FPS > 60). All tests were conducted on Nvidia GTX 3090."
+
 ![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/de1dae79-e016-4979-b1b4-8c32390e3172)
+
+
+
+## Visual results
+Qualitative comparison and user study of different methods. Compared with other methods, our method can obtain better visually cropping results close to GT. Last row with the user study results show that most users favor our method.
+
+![image](https://github.com/flyingbird93/ACPD-Net/assets/16755407/9da3a939-5114-419b-bd49-afa63d5b6d6a)
+
 
 ## Citation
 ```
