@@ -38,7 +38,7 @@ conda env create -f requirements.yml
 ```
 
 
-## pretrain model
+## Pretrain model
 - AVA dataset and CADB dataset model
   - Download the aesthetic pretrain model and put it in ./dataset/aesthetic_model.([download_link](https://pan.baidu.com/s/1F6Imkj7bFkIiKot4WgSxUw?pwd=u9un), passward：u9un) 
   - Download the composition pretrain model and put it in ./dataset/composition_model. ([download_link](https://pan.baidu.com/s/16Idk-C1ItPSJzueuAFPYZw?pwd=p5uq), passward：p5uq)
